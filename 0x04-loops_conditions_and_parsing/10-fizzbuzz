@@ -2,7 +2,7 @@
 # This script that displays numbers from 1 to 100.
 i=1
 while (("$i" < 101)); do
-    if [ $((i % 15)) = 0]
+    if [ $((i % 15)) = 0 ]
     then
 	echo Fizzbuzz
     elif [ $((i % 3)) = 0 ]
