@@ -7,7 +7,7 @@ while (("$i" < 10)); do
         echo bad luck
     elif [[ $i -eq 7 ]]
     then
-        echo bad luck
+        echo good luck
 
     else
         echo "Best School"
