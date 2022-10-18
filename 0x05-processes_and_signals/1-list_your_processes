@@ -1,4 +1,3 @@
 #!usr/bin/env bash
 # This script displays the list of process.
-
-ps auxf
+ps -faux | less
